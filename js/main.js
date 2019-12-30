@@ -64,7 +64,7 @@ $(document).ready(function () {
         targetAxisIndex: 3
       }
     },
-    colors: ['#f6b26b', '#40c18e', '#8e7cc3', '#5D37AC', '#212721', '#fac5c3', '#6d9eeb', '#45818e', '#de5f5f']
+    colors: ['#f6b26b', '#40c18e', '#8e7cc3', '#191919', '#212721', '#fac5c3', '#6d9eeb', '#45818e', '#de5f5f']
   }
 
   localData.transactionPool = $('#transactionPool').DataTable({

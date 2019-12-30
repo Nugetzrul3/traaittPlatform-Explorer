@@ -151,7 +151,7 @@ function drawPoolPieChart () {
 
   var options = {
     is3D: false,
-    colors: ['#212721', '#fac5c3', '#6d9eeb', '#40c18e', '#8e7cc3', '#5D37AC', '#f6b26b', '#45818e', '#de5f5f'],
+    colors: ['#212721', '#fac5c3', '#6d9eeb', '#40c18e', '#8e7cc3', '#191919', '#f6b26b', '#45818e', '#de5f5f'],
     chartArea: {
       width: '100%'
     },
