@@ -1,10 +1,10 @@
 const ExplorerConfig = {
-  apiBaseUrl: 'https://blockapi.traaittplatform.com',
+  apiBaseUrl: 'https://cacheapi.traaittplatform.com',
   ticker: 'ETRX',
   maxSupply: 74400000000000,
-  emissionSpeed: 23,
+  emissionSpeed: 25,
   decimalPoints: 2,
-  blockTargetTime: 30,
+  blockTargetTime: 17,
   startYear: 2019,
   genesisTimestamp: 1574888787,
   emissionCurveInterval: 20000,
