@@ -73,7 +73,7 @@ $(document).ready(function () {
 
 function getAndDrawNodeStats () {
   $.ajax({
-    url: ExplorerConfig.apiBaseUrl + '/node/stats',
+    url: ExplorerConfig . apiBaseUrl  +  '/ node / stats' ,
     dataType: 'json',
     method: 'GET',
     cache: 'false',
@@ -96,8 +96,8 @@ function getAndDrawNodeStats () {
 
         localData.nodeTable.row.add([
           {
-            name: node.name,
-            address: node.fee.address || node.url
+            Name : Knoten . name ,
+            Adresse : Knoten . Gebühr . Adresse  ||  Knoten . url
           },
           {
             host: node.url,
